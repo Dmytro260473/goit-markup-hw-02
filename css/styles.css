@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background-color: #fff;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -28,6 +29,7 @@ button {
   font-weight: 700;
   line-height: 1.17;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -39,6 +41,17 @@ button {
   gap: 40px;
 }
 
+.page-nav .link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
 .header-link {
   color: #2e2f42;
   font-weight: 500;
@@ -48,24 +61,39 @@ button {
   color: #404bbf;
 }
 
-.contact-link {
-  color: #434455;
+.style {
   font-style: normal;
-}
 
-.contact-link:hover {
-  color: #404bbf;
-}
+  .contact-link {
+    color: #434455;
+    font-style: normal;
+  }
 
-/* Hero */
-.hero-section {
-  padding: 188px 0;
-  background-color: #2e2f42;
-}
+  .contact-link:hover {
+    color: #404bbf;
+  }
 
-.hero-title {
-  color: #ffffff;
-  text-align: center;
+  /* Hero */
+
+  h1,
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #2e2f42;
+  }
+
+  .hero-section {
+    padding: 188px 0;
+    background-color: #2e2f42;
+  }
+
+  .hero-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
 }
 
 .button {
@@ -77,6 +105,12 @@ button {
   padding: 16px 32px;
   border-radius: 4px;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button:hover {
@@ -88,13 +122,17 @@ button {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .section-title {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .section-team {
@@ -110,14 +148,6 @@ button {
 
 .card {
   background-color: #ffffff;
-}
-
-.studio-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .section-team .studio-list {
