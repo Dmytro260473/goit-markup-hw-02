@@ -23,7 +23,7 @@ button {
 
 /* Header */
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -33,7 +33,7 @@ button {
 }
 
 .logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav {
@@ -59,10 +59,6 @@ button {
 
 .header-link:hover {
   color: #404bbf;
-}
-
-.style {
-  font-style: normal;
 }
 
 .contact-link {
@@ -150,8 +146,12 @@ h2 {
   text-align: center;
 }
 
-.section-team .text {
-  text-align: center;
+.studio-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .page-footer {
@@ -162,7 +162,11 @@ h2 {
   color: #4d5ae5;
 }
 
-.page-footer .logo {
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.page-footer {
   color: #f4f4fd;
 }
 
