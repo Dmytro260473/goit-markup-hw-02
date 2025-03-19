@@ -138,12 +138,12 @@ h2 {
   text-transform: capitalize;
 }
 
-.card {
-  background-color: #ffffff;
+.studio-portfolio .studio-list {
+  text-align: center;
 }
 
-.section-team .studio-list {
-  text-align: center;
+.card {
+  background-color: #ffffff;
 }
 
 .studio-list {
@@ -160,6 +160,12 @@ h2 {
 
 .logo-footer {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .footer-logo {
