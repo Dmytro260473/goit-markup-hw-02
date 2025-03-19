@@ -23,13 +23,14 @@ button {
 
 /* Header */
 .logo {
-  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
   line-height: 1.17;
-  text-transform: uppercase;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
 .logo-accent {
@@ -51,22 +52,20 @@ button {
   font-style: normal;
 }
 
-.header-link {
-  color: #2e2f42;
-  font-weight: 500;
+.contact-link {
+  text-decoration: none;
+  color: #434455;
+  cursor: pointer;
 }
 
-.header-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
 .contact-link {
   color: #434455;
   font-style: normal;
-}
-
-.contact-link:hover {
-  color: #404bbf;
 }
 
 /* Hero */
